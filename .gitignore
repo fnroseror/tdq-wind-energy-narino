@@ -1,0 +1,23 @@
+# Outputs and logs (generated locally)
+outputs/*
+!outputs/.gitkeep
+
+logs/*
+!logs/.gitkeep
+
+# Real dataset not included (Option A)
+data/Datos.txt
+data/*.csv
+!data/Datos_demo.csv
+!data/README.md
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Models / TensorFlow artifacts
+*.h5
+*.keras
+*.pb
+__pycache__/
